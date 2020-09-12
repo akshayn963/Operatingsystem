@@ -154,16 +154,16 @@ Q1. Create directory of your name and then create 4 files inside it named
 
 		a)user can read and write the file a.txt and b.txt
 
-                ANS:-->    chmod 060 a.txt b.txt
+                ANS:-->    chmod 600 a.txt b.txt
 
 		b)user can write the file c.txt
-                ANS:-> chmod 020 c.txt
+                ANS:-> chmod 200 c.txt
 
 		c)user can exectuable the file d.sh. Make
 			Contents of file d.sh:
 			#/bin/sh
 			ls -lh
-                Ans:-> chmod 070 d.sh
+                Ans:-> chmod 100 d.sh
 	        cat >> d.sh
 
 
